@@ -1,0 +1,19 @@
+@import '../main/normalize.css';
+@import '../header/header.css';
+@import '../banner/banner.css';
+.main{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 1440px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*
+Добавить ссылку сбоку, чтобы можно было сразу передвинуться вверх
+Поставить анимацию на переходы
+Убрать декор на портфолио при наведении
+*/
