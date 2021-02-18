@@ -13,6 +13,36 @@
     border-bottom: solid rgba(255, 255, 255, 1) 1px;
 }
 /* header__content*/
+.header__burger{
+    display: none;
+    position: fixed;
+    max-width: 24px;
+    width:100%;
+}
+@media screen and (max-width:380px){
+    .header{
+        background-image: url(../../picture/picture__iphone/iphone__header.jpg);
+        padding: 36px 34px;
+        grid-template-rows: 79px  94px 30px; 
+    }
+    .content__menu{
+        display: none;
+    }
+    .header__burger{
+        visibility: visible;
+        display: block;
+    }
+    .header__burger span{
+        border-bottom: solid black 1px;
+        margin-bottom: 1.5px;
+    }
+    .header__text span:nth-child(1){
+        font-size: 20px;
+    }
+    .header__text span:nth-child(2){
+        margin-top: 13px;
+    }
+}
 .header__content{
     display: flex;
     justify-content: space-between;
