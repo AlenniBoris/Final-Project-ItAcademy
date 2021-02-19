@@ -9,24 +9,23 @@
 
 </head>
 <body>
+    <script src="script/main__script.js"></script>
     <div class="main">
-        <div class="header">
+        <div class="button__up">
+            <a href="#" title="Go Up"><img src="picture/all/button__up.svg" alt="button__up"></a>
+        </div>
+        <div class="header" id="Home">
             <div class="header__content">
-                <div class="header__burger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
                 <div class="content__logo">
-                    <a href="/" title="Portfolio" target="_blank">Portfolio</a>
+                    <a href="#Home" title="Portfolio" target="_blank"><img src="picture/all/Heder__logo.svg" alt=""></a>
                 </div>
                 <div class="content__menu">
                     <ul>
-                        <li><a href="/" title="Home">Home</a></li>
+                        <li><a href="#Home" title="Home">Home</a></li>
                         <li><a href="#About" title="About">About</a></li>
                         <li><a href="#Skills" title="Skills">Skills</a></li>
-                        <li><a href="/" title="Portfolio">Portfolio</a></li>
-                        <li><a href="/" title="Contact">Contact</a></li>
+                        <li><a href="#Portfolio" title="Portfolio">Portfolio</a></li>
+                        <li><a href="#GetInTouch" title="Contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -35,7 +34,7 @@
                 <span>Designer from Porto, Portugal</span>
             </div>
             <div class="header__link">
-                <a href="/" title="Latest works" >Latest works</a>
+                <a href="/" title="Latest works" onclick="EmptyLink()">Latest works</a>
             </div>
         </div>
     
@@ -104,7 +103,7 @@
                 </div>
             </div>
             <div class="epilogue">
-                <div class="content__header"><span id="Skills">Portfolio</span></div>
+                <div class="content__header"><span id="Portfolio">Portfolio</span></div>
                 <div class="epilogue__header__text">UX Research</div>
                 <div class="epilogue__content">
                     <div class="content__epilogue__left">
@@ -115,19 +114,18 @@
                     <div class="epilogue__picture">
                         <div class="picture__side">
                             <div class="picture__side__content">
-                                <img src="picture/picture__desktop/epilogue__picrure-river.jpg" alt="">
+                                <img src="picture/picture__desktop/river.png" alt="river">
                             </div>
                             <div class="picture__side__content">
-                                <img src="picture/picture__desktop/epilogue-lake.jpg" alt="">
-                                
+                                <img src="picture/picture__desktop/epilogue-lake.jpg" alt="lake"> 
                             </div>
                         </div>
                         <div class="picture__side">
                             <div class="picture__side__content">
-                                <img src="picture/picture__desktop/epilogue-bridge.jpg" alt="">
+                                <img src="picture/picture__desktop/epilogue-bridge.jpg" alt="bridge">
                             </div>
                             <div class="picture__side__content">
-                                <img src="picture/picture__desktop/epilogue-house.jpg" alt="">
+                                <img src="picture/picture__desktop/epilogue-house.jpg" alt="house">
                             </div>
                         </div>
  
@@ -138,30 +136,30 @@
 
         <div class="footer">
             <div class="footer__header">
-                <span>Get in Touch</span>
+                <span id="GetInTouch">Get in Touch</span>
             </div>
             <div class="footer__content">
                 <div class="footer__options">
                     <ul>
-                        <li><a href="/">Dribble</a></li>
-                        <li><a href="/">Behance</a></li>
-                        <li><a href="/">CodePen</a></li>
-                        <li><a href="/">Github</a></li>
-                        <li><a href="/">Medium</a></li>
+                        <li><a href="https://dribbble.com" title="Dribble" target="_blank">Dribble</a></li>
+                        <li><a href="https://www.behance.net" title="Behance" target="_blank">Behance</a></li>
+                        <li><a href="https://codepen.io/your-work" title="CodePen" target="_blank">CodePen</a></li>
+                        <li><a href="https://github.com/AlenniBoris" title="Github" target="_blank">Github</a></li>
+                        <li><a href="https://medium.com" title="Medium" target="_blank">Medium</a></li>
                     </ul>
                 </div>
                 <div class="footer__options">
                     <ul>
-                        <li><a href="/">LinkedIn</a></li>
-                        <li><a href="/">Facebook</a></li>
-                        <li><a href="/">Instagram</a></li>
-                        <li><a href="/">Twitter</a></li>
+                        <li><a href="https://www.linkedin.com" title="LinkedIn" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://www.facebook.com/" title="Facebook" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/?hl=ru" title="Instagram" target="_blank">Instagram</a></li>
+                        <li><a href="https://twitter.com/?lang=ru" title="Twitter" target="_blank">Twitter</a></li>
                     </ul>
                 </div>
                 <div class="footer__options">
                     <ul>
-                        <li><a href="/">Email</a></li>
-                        <li><a href="/">Behance</a></li>
+                        <li><a href="/" title="Email" target="_blank" onclick="EmptyLink()">Email</a></li>
+                        <li><a href="https://www.behance.net/" title="Behance" target="_blank">Behance</a></li>
                     </ul>
                 </div>
             </div>
