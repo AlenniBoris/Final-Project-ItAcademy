@@ -38,3 +38,23 @@
     color: black;
     text-decoration: none;
 }
+@media screen and (max-width:380px){
+    .footer{
+        max-height: 375px;
+        padding: 25px 34px;
+        display: flex;
+        
+    } 
+    .footer__header{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    .footer__options ul li{
+        margin-bottom: 19px;
+    }
+    .footer__content{
+        display: grid;
+        grid-template: repeat(2, 2fr)/ repeat(2, 2fr);
+    }
+}

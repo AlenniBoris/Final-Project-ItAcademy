@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles/main/main.css">
-
+<link rel="stylesheet" href="styles/header/burger.css">
 </head>
 <body>
     <script src="script/main__script.js"></script>
@@ -17,16 +17,21 @@
         <div class="header" id="Home">
             <div class="header__content">
                 <div class="content__logo">
-                    <a href="#Home" title="Portfolio" target="_blank"><img src="picture/all/Heder__logo.svg" alt=""></a>
+                    <a href="#Home" title="Portfolio" target="_blank"><img src="picture/all/Heder__logo.svg" alt="Portfolio"></a>
                 </div>
                 <div class="content__menu">
-                    <ul>
+                    <ul class="menu__links">
                         <li><a href="#Home" title="Home">Home</a></li>
                         <li><a href="#About" title="About">About</a></li>
                         <li><a href="#Skills" title="Skills">Skills</a></li>
                         <li><a href="#Portfolio" title="Portfolio">Portfolio</a></li>
                         <li><a href="#GetInTouch" title="Contact">Contact</a></li>
                     </ul>
+                </div>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
                 </div>
             </div>
             <div class="header__text">
@@ -39,7 +44,7 @@
         </div>
     
         <div class="content">
-            <div class="preface">
+            <div class="content__main__settings">
                 <div class="content__header"><span id="About">About</span></div>
                 <div class="content__text">
                     <span>
@@ -50,12 +55,10 @@
                     </span>
                 </div>
             </div>
-            <div class="skills">
+            <div class="content__main__settings">
                 <div class="content__header"><span id="Skills">Skills</span></div>
                 <div class="skills__content">
-                    <div class="content__picture">
-                        <img src="./picture/picture__desktop/profile.jpg" alt="Profile">
-                    </div>
+                    <div class="content__picture"></div>
                     
                     <div class="profile__features">
                         <div class="feature">
@@ -102,7 +105,7 @@
                     </div>
                 </div>
             </div>
-            <div class="epilogue">
+            <div class="content__main__settings">
                 <div class="content__header"><span id="Portfolio">Portfolio</span></div>
                 <div class="epilogue__header__text">UX Research</div>
                 <div class="epilogue__content">
@@ -114,18 +117,18 @@
                     <div class="epilogue__picture">
                         <div class="picture__side">
                             <div class="picture__side__content">
-                                <img src="picture/picture__desktop/river.png" alt="river">
+                                <img src="picture/picture__desktop/River1.jpg" alt="river">
                             </div>
                             <div class="picture__side__content">
-                                <img src="picture/picture__desktop/epilogue-lake.jpg" alt="lake"> 
+                                <img src="picture/picture__desktop/Lake.png" alt="lake"> 
                             </div>
                         </div>
                         <div class="picture__side">
                             <div class="picture__side__content">
-                                <img src="picture/picture__desktop/epilogue-bridge.jpg" alt="bridge">
+                                <img src="picture/picture__desktop/Bridge.png" alt="bridge">
                             </div>
                             <div class="picture__side__content">
-                                <img src="picture/picture__desktop/epilogue-house.jpg" alt="house">
+                                <img src="picture/picture__desktop/House.png" alt="house">
                             </div>
                         </div>
  
@@ -158,8 +161,8 @@
                 </div>
                 <div class="footer__options">
                     <ul>
-                        <li><a href="/" title="Email" target="_blank" onclick="EmptyLink()">Email</a></li>
-                        <li><a href="https://www.behance.net/" title="Behance" target="_blank">Behance</a></li>
+                        <li><a href="mailto:tester@gmail.com" title="Email" target="_blank">tester@gmail.com</a></li>
+                        <li><a href="tel:+3529999999" title="Behance" target="_blank">+3529999999</a></li>
                     </ul>
                 </div>
             </div>

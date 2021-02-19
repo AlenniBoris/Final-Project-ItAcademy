@@ -17,16 +17,12 @@
 .button__up{
     position: fixed;
     top: 90%;
-    left: 90%;
-    transition: all 2.5s ease-out;
+    left: 87%;
+
 }
 @media screen and (max-width:380px){
     .main{
         font-size: 14px;
+        font-weight: 400;
     }
 }
-/*
-Добавить ссылку сбоку, чтобы можно было сразу передвинуться вверх
-Поставить анимацию на переходы
-Убрать декор на портфолио при наведении
-*/
