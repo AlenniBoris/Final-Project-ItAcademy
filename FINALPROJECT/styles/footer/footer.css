@@ -58,3 +58,13 @@
         grid-template: repeat(2, 2fr)/ repeat(2, 2fr);
     }
 }
+@media screen and (min-width:690px) and (max-width:768px){
+    .footer{
+        padding: 93px 40px;
+    }
+}
+@media screen and (min-width:1000px) and (max-width:1024px){
+    .footer{
+        padding: 93px 70px;
+    }
+}

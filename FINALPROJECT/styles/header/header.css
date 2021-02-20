@@ -98,3 +98,16 @@
         align-items: flex-end;
     }
 }
+@media screen and (min-width:690px) and (max-width:768px){
+    .header{
+        padding: 93px 40px;
+    }
+    .header__content ul li:not(:nth-child(5)){
+        margin-right: 35px;
+    }
+}
+@media screen and (min-width:1000px) and (max-width:1024px){
+    .header{
+        padding: 93px 70px;
+    }
+}
